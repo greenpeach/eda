@@ -1,0 +1,229 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Worldwide Monkeypox Daily Dataset | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Monkey pox cases around the world." />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="health,health conditions,covid19,public health,diseases" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="J6ul0b9kNFEo2hE7SfYQkQ==" type="text/javascript">
+    window["pageRequestStartTime"] = 1660887087386;
+    window["pageRequestEndTime"] = 1660887087454;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="J6ul0b9kNFEo2hE7SfYQkQ==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="canonical" href="/datasets/adhithyasrinivasan/worldwide-monkeypox-daily-dataset" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=8a3d8387530957456cac" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=225a4db43efa1cf767dc" />
+  
+    
+ 
+      <script nonce="J6ul0b9kNFEo2hE7SfYQkQ==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="J6ul0b9kNFEo2hE7SfYQkQ==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="J6ul0b9kNFEo2hE7SfYQkQ==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+  
+    
+    <meta property="og:url" content="/datasets/adhithyasrinivasan/worldwide-monkeypox-daily-dataset" />
+    <meta property="og:title" content="Worldwide Monkeypox Daily Dataset" />
+    <meta property="og:description" content="Monkey pox cases around the world." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/2407751/4067380/731d325895218b14cc07a942ff8a4bd9/dataset-card.jpg?t=2022-08-13-18-26-57" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="J6ul0b9kNFEo2hE7SfYQkQ==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Worldwide Monkeypox Daily Dataset","description":"**Context**\n    - Monkeypox is an infectious disease caused by the monkeypox virus that can occur in certain animals, including humans. Symptoms begin with fever, headache, muscle pains, swollen lymph nodes, and feeling tired.\n    - An ongoing outbreak of monkeypox was confirmed on 6 May 2022, beginning with a British resident who, after traveling to Nigeria (where the disease is endemic), presented symptoms consistent with monkeypox on 29 April 2022. The resident returned to the United Kingdom on 4 May, creating the country's index case of the outbreak.\n\nFile 1 : owid-monkeypox-data.csv\nDescription : This dataset contains the daily number of confirmed cases for all the countries where the virus has entered. \n\n**Acknowledgement and Citing**:\nEdouard Mathieu, Fiona Spooner, Saloni Dattani, Hannah Ritchie and Max Roser (2022) - \"Monkeypox\". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/monkeypox' [Online Resource]","url":"https://www.kaggle.com/adhithyasrinivasan/worldwide-monkeypox-daily-dataset","version":2,"keywords":["subject, health and fitness, health","subject, health and fitness, health, health conditions","subject, health and fitness, health, health conditions, diseases, covid19","subject, health and fitness, health, public health","subject, health and fitness, health, health conditions, diseases"],"license":{"@type":"CreativeWork","name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"identifier":["2407751"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Adhithya Srinivasan","url":"https://www.kaggle.com/adhithyasrinivasan","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/adhithyasrinivasan/worldwide-monkeypox-daily-dataset/download?datasetVersionNumber=2","contentSize":"31205 bytes"}],"commentCount":0,"dateModified":"2022-08-14T12:11:01.077Z","discussionUrl":"https://www.kaggle.com/adhithyasrinivasan/worldwide-monkeypox-daily-dataset/discussion","alternateName":"Monkey pox cases around the world.","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/2407751/4067380/731d325895218b14cc07a942ff8a4bd9/dataset-card.jpg?t=2022-08-13-18-26-57","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":204},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":1000},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":13}]}</script>
+
+
+  
+    
+
+  
+    
+    
+<script nonce="J6ul0b9kNFEo2hE7SfYQkQ==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+
+    Kaggle.Current = {
+        antiForgeryToken: 'CfDJ8L8BvZG-E0ZPkNZKnO2avD9LMAS2_wp2TwJ8LaTH4QuWSFLWupNdz23wdrrpgqZcPZ5a568QyVUu-N_GKSorJpiy-CkQOMEgXbst4f78TXUjlg',
+        isAnonymous: true,
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjA4ODc5ODcsIlVzZXJJZCI6MH0.NkY4nwrZK8OoFYqT3XLuSkUrgVNpPJ9UtH1LPICss2o',
+        analyticsTokenExpiry: 15,
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+        Kaggle.Current.log = function(){};
+        Kaggle.Current.warn = function(){};
+
+    const decodeUserProperty = function (escapedUserProperty) {
+        escapedUserProperty = escapedUserProperty || "";
+        try {
+            const textVersion = new DOMParser().parseFromString(escapedUserProperty, "text/html").documentElement.textContent;
+            if (textVersion) {
+                return textVersion;
+            }
+        } catch(ex) {}
+        return escapedUserProperty;
+    }
+    Kaggle.Current.userDisplayName = decodeUserProperty(Kaggle.Current.userDisplayNameEscaped);
+    Kaggle.Current.userEmail = decodeUserProperty(Kaggle.Current.userEmailEscaped); 
+</script>
+
+    
+
+<script nonce="J6ul0b9kNFEo2hE7SfYQkQ==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+    Kaggle.PageMessages = [];
+</script>
+
+
+
+    <script nonce="J6ul0b9kNFEo2hE7SfYQkQ==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="J6ul0b9kNFEo2hE7SfYQkQ==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="J6ul0b9kNFEo2hE7SfYQkQ==" src="/static/assets/runtime.js?v=9063273852760bb97638" data-turbolinks-track="reload"></script>
+  <script nonce="J6ul0b9kNFEo2hE7SfYQkQ==" src="/static/assets/vendor.js?v=1c3ecd6c9d333a8b1797" data-turbolinks-track="reload"></script>
+  <script nonce="J6ul0b9kNFEo2hE7SfYQkQ==" src="/static/assets/app.js?v=7109d7f7e834a15af08a" data-turbolinks-track="reload"></script>
+    <script nonce="J6ul0b9kNFEo2hE7SfYQkQ==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+
+<div id="site-container"></div>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="J6ul0b9kNFEo2hE7SfYQkQ==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div id="site-body" class="hide">
+    
+
+<div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="J6ul0b9kNFEo2hE7SfYQkQ==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":2407751,"slug":"worldwide-monkeypox-daily-dataset","title":"Worldwide Monkeypox Daily Dataset","description":"**Context**\n    - Monkeypox is an infectious disease caused by the monkeypox virus that can occur in certain animals, including humans. Symptoms begin with fever, headache, muscle pains, swollen lymph nodes, and feeling tired.\n    - An ongoing outbreak of monkeypox was confirmed on 6 May 2022, beginning with a British resident who, after traveling to Nigeria (where the disease is endemic), presented symptoms consistent with monkeypox on 29 April 2022. The resident returned to the United Kingdom on 4 May, creating the country\u0027s index case of the outbreak.\n\nFile 1 : owid-monkeypox-data.csv\nDescription : This dataset contains the daily number of confirmed cases for all the countries where the virus has entered. \n\n**Acknowledgement and Citing**:\nEdouard Mathieu, Fiona Spooner, Saloni Dattani, Hannah Ritchie and Max Roser (2022) - \u0022Monkeypox\u0022. Published online at OurWorldInData.org. Retrieved from: \u0027https://ourworldindata.org/monkeypox\u0027 [Online Resource]","viewCount":1000,"downloadCount":204,"scriptCount":1,"owner":{"id":2823736,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","name":"Adhithya Srinivasan","profileUrl":"/adhithyasrinivasan","slug":"adhithyasrinivasan","userTier":"CONTRIBUTOR"},"license":{"id":1,"name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"overview":"Monkey pox cases around the world.","collaboratorList":{"owner":{"userId":2823736,"profileUrl":"/adhithyasrinivasan","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","name":"Adhithya Srinivasan","slug":"adhithyasrinivasan","userTier":"CONTRIBUTOR","type":"OWNER"}},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/2407751/4067380/731d325895218b14cc07a942ff8a4bd9/dataset-cover.jpg?t=2022-08-13-18-26-57","data":{"totalSize":31205,"isFileset":true,"canSeeDownload":true,"firestorePath":"1Yh8zUnytnjqhyAB2VbJ/versions/IEUaCpSmTji4GO4A8yl8","downloadUrl":"/datasets/adhithyasrinivasan/adhithyasrinivasan/download?datasetVersionNumber=2","versionId":4126309,"id":2438671},"voteCount":13,"medalUrl":"/static/images/medals/datasets/bronzel@2x.png","downloadUrl":"/datasets/adhithyasrinivasan/worldwide-monkeypox-daily-dataset/download?datasetVersionNumber=2","lastUpdateTime":"2022-08-14T12:11:01.077Z","datasetVersionNumber":2,"creatorDisplayName":"Adhithya Srinivasan","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/2407751/4067380/731d325895218b14cc07a942ff8a4bd9/dataset-card.jpg?t=2022-08-13-18-26-57","categories":{"tags":[{"id":11111,"name":"health","fullPath":"subject \u003E health and fitness \u003E health","listingUrl":"/datasets?group=public\u0026tagids=11111","description":"Consider the health tag your data science gym. Get in there and work out those data science muscles on health analytics. Analyze heart disease until you sweat. Then recover with with a nice candy production dataset.","datasetCount":6633,"competitionCount":4,"notebookCount":7369,"tagUrl":"/tags/health","displayName":"Health"},{"id":16378,"name":"health conditions","fullPath":"subject \u003E health and fitness \u003E health \u003E health conditions","listingUrl":"/datasets?group=public\u0026tagids=16378","description":"","datasetCount":2611,"notebookCount":1708,"tagUrl":"/tags/health-conditions","displayName":"Health Conditions"},{"id":16575,"name":"covid19","fullPath":"subject \u003E health and fitness \u003E health \u003E health conditions \u003E diseases \u003E covid19","listingUrl":"/datasets?group=public\u0026tagids=16575","description":"COVID-19 is a disease that is caused by the SARS-CoV-2 virus. In 2020 there was a global COVID-19 pandemic.","datasetCount":1666,"competitionCount":9,"notebookCount":2384,"tagUrl":"/tags/covid19","displayName":"Coronavirus"},{"id":4309,"name":"public health","fullPath":"subject \u003E health and fitness \u003E health \u003E public health","listingUrl":"/datasets?group=public\u0026tagids=4309","description":"This tag contains datasets and kernels on things that affect the general health of the public. They include foodborne illness, dengue fever, immunization records, and all the other things that mean you have to get a shot at the doctor\u0027s office.","datasetCount":1131,"competitionCount":1,"notebookCount":720,"tagUrl":"/tags/public-health","displayName":"Public Health"},{"id":4302,"name":"diseases","fullPath":"subject \u003E health and fitness \u003E health \u003E health conditions \u003E diseases","listingUrl":"/datasets?group=public\u0026tagids=4302","description":"Datasets and kernels related to various diseases. Make sure you wear goggles and gloves before touching these datasets. Also wash your hands.","datasetCount":383,"competitionCount":1,"notebookCount":320,"tagUrl":"/tags/diseases","displayName":"Diseases"}]},"datasetExternalUrl":"https://www.kaggle.com/datasets/adhithyasrinivasan/worldwide-monkeypox-daily-dataset","forumId":2435106,"datasetVersionId":4070217,"canCreateTasks":true,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":2,"diffType":"VERSIONED"},"@wf": "Datasets.DatasetMaterialDtoWireFormat3"});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script><script nonce="J6ul0b9kNFEo2hE7SfYQkQ==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: [],
+    });
+</script>
+<script type="text/javascript" nonce="J6ul0b9kNFEo2hE7SfYQkQ==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
